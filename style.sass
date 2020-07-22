@@ -1,0 +1,104 @@
+@import '_mixins';
+li 
+    list-style-type: none;
+    font-size      : 1.5rem;
+    a 
+        padding: 14px 16px;
+        width: 3rem;
+    
+html
+    font-family: Arial,Helvetica,sans-serif;
+    font-size  : 10px;
+
+body 
+    overflow-x: hidden;
+.card2
+    @include card(5rem 1rem 4rem 6rem); 
+.card1
+    @include card(8rem 1rem 4rem 18rem); 
+.card3
+    @include card(8rem 1rem 4rem 4rem); 
+.card_name
+    @include card_name(12rem);
+.card2_name
+    @include card_name(14rem);
+.card_offer > p[aria-disabled="true"]
+    opacity: 0.5;    
+    &::before
+        content: "\2716";
+        color: gray;
+.signup_button
+    @include button_style(20rem,0 1rem);
+.send_message_button
+    @include button_style(14rem,2rem 1rem 2rem 20rem)
+#message
+    @include input_style(15rem)
+#name 
+    width: 100%;
+    height: 4rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: indigo;
+    margin-bottom: 1rem
+#email 
+    @extend #name;    
+.contact_us_form
+    font-size: 3rem;
+    color: #5a5a5a;
+    font-weight: normal;
+    margin-left: 33rem;
+    width: 40%;
+.email_address
+    @include info_style() 
+.phone_number
+    @include info_style() 
+.plains_container
+    @include section_style(11rem 10rem 0rem)
+.contact_us
+    @include section_style(0rem 0rem 0rem 10rem)    
+.plains_heading
+    @include heading_style(45rem)
+.contact_us_heading
+    @include heading_style(53rem)     
+.introduction
+    margin-left: 32rem;
+    width: 57rem;
+    height: 10rem;
+    text-align: center;
+    font-size: 1.5rem;
+.card_price
+    height: 10rem;
+    width: 10rem;
+    background-color: #56bc94;
+    border-radius: 50%;
+    margin-left: 7rem;
+    margin-top: -5.5rem;
+    border: 4px solid #8ed2b7 ;
+.card_price > p 
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 2.8rem;
+    margin-bottom: 0rem;
+    line-height: 1.2rem;
+    left: 8rem;
+    float: left;
+    padding-left: 1.45rem;
+.logo_image 
+    padding-top: 1rem;
+.card_offer
+    color: gray;
+    padding: 1rem;
+    width: 23rem;
+    text-align: center;
+    font-size: 1.2rem;
+
+
+
+.card_offer > p::before
+    content: "\2714";
+    color: green;
+.logo_image 
+    padding-top: 1rem;
+    
+

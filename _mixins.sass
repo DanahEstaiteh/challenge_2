@@ -1,0 +1,46 @@
+@mixin card($margin)
+   margin: $margin;
+   width: 25rem;
+   height: 46rem;
+   float: left;  
+@mixin card_name($height)
+   font-size: 1.5rem;
+   background-color: #c4e7d9;
+   width: 25rem;
+   height: 12rem;
+   text-align: center;
+   color: #6e9b89;
+   font-weight: bold;
+   padding-top: 3rem;  
+@mixin button_style($width,$margin)
+   color: white;
+   background-color: #56bc94;
+   width: $width;
+   text-align: center;
+   border: none;
+   border-radius: 0.2rem;
+   padding: 0.8rem;
+   margin: $margin;  
+@mixin input_style($height)
+   width: 100%;
+   height: $height;
+   border: none;
+   border-radius: 0.5rem;
+   background-color: indigo;
+   margin-top: 1rem
+@mixin info_style()
+   font-size: 1.3rem;
+   color: #5a5a5a;
+   font-weight: normal;
+   margin-left: 53rem
+@mixin section_style($margin)
+   width: 100%;
+   height: 70rem;
+   margin: $margin;
+   position: relative
+@mixin heading_style($margin)
+   margin-left: $margin;
+   font-size: 3rem;
+   color: #5a5a5a;
+   font-weight: normal;
+    
