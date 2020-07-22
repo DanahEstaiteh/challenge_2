@@ -132,9 +132,9 @@ body {
 }
 
 .plains_container {
-  width: 100%;
+  width: 90%;
   height: 70rem;
-  margin: 11rem 10rem 0rem;
+  margin: 11rem auto 0rem;
   position: relative;
 }
 
@@ -172,7 +172,7 @@ body {
   width: 10rem;
   background-color: #56bc94;
   border-radius: 50%;
-  margin-left: 7rem;
+  margin-left: 7.5rem;
   margin-top: -5.5rem;
   border: 4px solid #8ed2b7;
 }
@@ -240,10 +240,11 @@ header {
    .desktop-header{
         display: none;
     }
-    .plain_container{
-        width: 100%;
+    .plains_container{
+        width: 65%;
         margin-left: auto;
         margin-right: auto;
+
     }
     .plains_heading{
       margin: 0rem;
@@ -263,11 +264,12 @@ header {
         width: 100%;
     }
     .card_price{
-        margin-left: 10rem;
+        margin-left: 7.5rem;
     }
     .contact_us{
-      width: 100%;
-      margin-left: 1rem;
+      width: 95%;
+      margin-left: auto;
+      margin-right: auto;
     }
     .contact_us_heading  {
         margin-left: 14rem;
