@@ -80,7 +80,7 @@
   position       : fixed;
   top            : 5rem;
   left           : 0rem;
-  width          : 42rem;
+  width          : 100%;
   height         : 30rem;
   visibility     : hidden;
   overflow       : hidden;
@@ -91,7 +91,7 @@
 
 .menu-wrap .menu>div {
   background     : white;
-  width          : 42rem;
+  width          : 100%;
   height         : 30rem;
   display        : flex;
   flex           : none;
@@ -102,11 +102,13 @@
 
 .menu-wrap .menu>div>div {
   text-align: left;
-  width     : 42rem;
+  width     : 100%;
   height    : 30rem;
   opacity   : 0;
 }
-
+.menu-wrap .menu>div>div>ul{
+  width: 100%;
+}
 .menu-wrap .menu>div>div>ul>li {
   list-style-type: none;
   color          : gray;

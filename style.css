@@ -38,6 +38,7 @@ body::before {
   height          : 51rem;
   float           : left;
   background-color: white;
+  position: relative;
 }
 
 .card1 {
@@ -76,6 +77,7 @@ body::before {
   color           : #6e9b89;
   font-weight     : bold;
   padding-top     : 3rem;
+  
 }
 
 .card_offer>p[aria-disabled="true"] {
@@ -343,7 +345,8 @@ header {
   }
 
   .contact_us_heading {
-    margin-left: 14rem;
+    margin-left : auto;
+    margin-right: auto;
     font-size  : 2rem;
   }
 
@@ -392,6 +395,54 @@ header {
   margin-left    : auto;
   margin-right   : auto;
   float          : left;
+}
+.ribbon {
+  width: 130px;
+  height: 130px;
+  overflow: hidden;
+  position: absolute;
+}
+.ribbon::before,
+.ribbon::after {
+  position: absolute;
+  content: '';
+  display: block;
+  border: 0.5rem solid #40785f;
+}
+.ribbon span {
+  position: absolute;
+  display: block;
+  width: 22.5rem;
+  padding: 1.5rem 0;
+  background-color: #3fa07a;
+  box-shadow: 0 0.5rem 2rem rgba(0,0,0,.1);
+  color: #fff;
+  font: 700 1.7rem/1 'Lato', sans-serif;
+  text-shadow: 0 1px 1px rgba(0,0,0,.2);
+  text-transform: uppercase;
+  text-align: center;
+}
+.ribbon-top-right {
+  top: -1rem;
+  right: -1rem;
+}
+.ribbon-top-right::before,
+.ribbon-top-right::after {
+  border-top-color: #3fa07a;
+  border-right-color: #3fa07a;
+}
+.ribbon-top-right::before {
+  top: 0;
+  left: 0;
+}
+.ribbon-top-right::after {
+  bottom: 0;
+  right: 0;
+}
+.ribbon-top-right span {
+  left: -2.5rem;
+  top: 3rem;
+  transform: rotate(45deg);
 }
 
 /*# sourceMappingURL=style.css.map */
