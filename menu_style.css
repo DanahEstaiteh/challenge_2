@@ -106,9 +106,11 @@
   height    : 30rem;
   opacity   : 0;
 }
-.menu-wrap .menu>div>div>ul{
+
+.menu-wrap .menu>div>div>ul {
   width: 100%;
 }
+
 .menu-wrap .menu>div>div>ul>li {
   list-style-type: none;
   color          : gray;
