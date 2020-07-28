@@ -5,8 +5,8 @@
     <link rel="stylesheet" href="src/css/style.css">
     <link rel="stylesheet" href="src/css/menu_style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
-
-</head>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet"></head>
 
 <body>
     <header>
@@ -48,31 +48,33 @@
 
         <h1 class="plains_heading">Choose your plan today</h1>
         <div class="section_container_card">
-            <div class="card1">
+            <div class="cards"> 
+            <div class="card">
                 <div class="card_name">
                     <p> personal</p>
                 </div>
                 <div class="card_price">
-                    <p class="offer_price">5</p><br>
+                    <p class="offer_price">5</p>
                     <p>per month</p>
                 </div>
                 <div class="card_offer">
                     <p> 1 user</p>
-                    <hr>
+                    
                     <p>10 GB storage</p>
-                    <hr>
+                    
                     <p aria-disabled="true">Email priority support</p>
-                    <hr>
+                    
                     <p aria-disabled="true">free update</p>
-                    <hr>
+                    
                     <p aria-disabled="true">24/7 support</p>
-                    <hr>
+                    
                     <button class="signup_button">Sign Up</button>
                 </div>
             </div>
-            <div class="card2">
+        
+            <div class="card card__popular">
                 <div class="ribbon ribbon-top-right"><span>POPULAR</span></div>
-                <div class="card2_name">
+                <div class="card_name">
 
                     <p> professional</p>
                 </div>
@@ -82,19 +84,19 @@
                 </div>
                 <div class="card_offer">
                     <p> 10 users</p>
-                    <hr>
+                    
                     <p>30 GB storage</p>
-                    <hr>
+                    
                     <p>Email priority support</p>
-                    <hr>
+                    
                     <p>free update</p>
-                    <hr>
+                    
                     <p aria-disabled="true">24/7 support</p>
-                    <hr>
+                    
                     <button class="signup_button">Sign Up</button>
                 </div>
             </div>
-            <div class="card3">
+            <div class="card">
                 <div class="card_name">
                     <p> Business</p>
                 </div>
@@ -104,19 +106,20 @@
                 </div>
                 <div class="card_offer">
                     <p> 10 users</p>
-                    <hr>
+                    
                     <p>30 GB storage</p>
-                    <hr>
+                    
                     <p>Email priority support</p>
-                    <hr>
+                    
                     <p>free update</p>
-                    <hr>
+                    
                     <p>24/7 support</p>
-                    <hr>
+                    
                     <button class="signup_button">Sign Up</button>
                 </div>
 
             </div>
+        </div>
         </div>
     </section>
     <section class="contact_us">
@@ -126,8 +129,13 @@
                 elit.Nullam ut erat magna.Aliquam porta sem a lacus imperdiet poseure . Imteger semper
                 eget ligula id eleifend.
             </p>
-            <p class="email_address">hello@website.com</p>
-            <p class="phone_number">0800 123 456</p>
+            <div class="info">
+            <i class="fa fa-envelope fa-1x" aria-hidden="true"></i>
+            <p class="email_address ">hello@website.com</p>
+        </div>
+            <div class="info">
+            <i class="fa fa-phone-square fa-1x" aria-hidden="true"></i><p class="phone_number">0800 123 456</p>
+        </div >
             <form class="contact_us_form" action="">
                 <input type="text" calss="name" placeholder="NAME:" id="name"><br>
                 <input type="email" calss="email" placeholder="EMAIL:" id="email"><br>
